@@ -6,7 +6,6 @@
 ## 📜 À propos du projet  
 
 Pour perpétuer la **volonté du D.** et guider celui que **Gol D. Roger** attend, j’ai décidé de lancer un projet en **Python** qui retrace tout le **lore de One Piece**.  
-Grâce à [API-OnePiece](https://api-onepiece.com/fr), on va pouvoir plonger dans cet univers incroyable et explorer **chaque mystère**.  
 
 Mais comme **Luffy** qui rallie tous ceux qu’il croise à sa cause, **ce projet est ouvert à tous** !  
 
@@ -14,7 +13,7 @@ Mais comme **Luffy** qui rallie tous ceux qu’il croise à sa cause, **ce proje
 
 ## ⚓ Objectif  
 
-Créer une **page d'informations** sur le lore de **One Piece**, avec des infos détaillées sur :  
+Créer une **API Rest** sur le lore de **One Piece**, avec des infos détaillées sur :  
 ✅ Les **personnages** 🏴‍☠️  
 ✅ Les **îles & lieux mythiques** 🏝️  
 ✅ Les **fruits du démon** 🍇  
@@ -26,8 +25,11 @@ Créer une **page d'informations** sur le lore de **One Piece**, avec des infos 
 ## 🛠️ Technologies utilisées  
 
 - **Python** 🐍  
-- **API-OnePiece** 🌊  
 - Et tout ce qui peut nous aider à **naviguer sur Grand Line** !  
+
+## 📙 Sources 
+
+(Personnages)[https://fr.wikipedia.org/wiki/Personnages_de_One_Piece#Liste_des_primes]
 
 ---
 
