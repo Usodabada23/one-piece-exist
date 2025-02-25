@@ -1,0 +1,21 @@
+from enum import Enum
+
+class RankMarine(Enum):
+    APPRENTICE = "Apprentice"
+    SEAMAN_RECRUIT = "Seaman Recruit"
+    SEAMAN_APPRENTICE = "Seaman Apprentice"
+    SEAMAN_FIRST_CLASS = "Seaman First Class"
+    PETTY_OFFICER = "Petty Officer"
+    CHIEF_PETTY_OFFICER = "Chief Petty Officer"
+    MASTER_CHIEF_PETTY_OFFICER = "Master Chief Petty Officer"
+    ENSIGN = "Ensign"
+    LIEUTENANT_JUNIOR_GRADE = "Lieutenant Junior Grade"
+    LIEUTENANT = "Lieutenant"
+    LIEUTENANT_COMMANDER = "Lieutenant Commander"
+    COMMANDER = "Commander"
+    CAPTAIN = "Captain"
+    COMMODORE = "Commodore"
+    REAR_ADMIRAL = "Rear Admiral"
+    VICE_ADMIRAL = "Vice Admiral"
+    ADMIRAL = "Admiral"
+    FLEET_ADMIRAL = "Fleet Admiral"
