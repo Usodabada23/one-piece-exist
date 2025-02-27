@@ -26,6 +26,7 @@ Créer une **API Rest** sur le lore de **One Piece**, avec des infos détaillée
 
 - **Python** 🐍  
 - **Flask** ♠
+- **PostgreSQL** ⚙
 - Et tout ce qui peut nous aider à **naviguer sur Grand Line** !  
 
 ## 📙 Sources 
