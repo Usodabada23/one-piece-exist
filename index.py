@@ -4,4 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "Hello, World! The One exist"
+    return "Hello, World! The One piece exist!"
+
+@app.route("/addPirate")
+def addNewPirate():
