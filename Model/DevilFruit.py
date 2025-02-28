@@ -7,4 +7,6 @@ class DevilFruit:
         self.ability = ability
         self.rarity = rarity
         self.is_eaten = is_eaten
+
+    
     
