@@ -45,6 +45,15 @@ CREATE TABLE IF NOT EXISTS marines (
     rank VARCHAR(100),
     FOREIGN KEY (devilFruit_id) REFERENCES devilFruits(id) ON DELETE SET NULL
 );
+
+CREATE TABLE IF NOT EXISTS islands (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    location VARCHAR(255) NOT NULL,
+    government VARCHAR(255) NOT NULL,
+    affiliated_group VARCHAR(255)
+);
+
 """
 
 class Database:
