@@ -1,0 +1,258 @@
+[
+    {
+        "name": "Gomu Gomu no Mi",
+        "type": "MYTHICAL_ZOAN",
+        "description": "Allows the user's body to stretch like rubber.",
+        "ability": "Elasticity",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Mera Mera no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into fire at will.",
+        "ability": "Fire manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Hito Hito no Mi, Model: Daibutsu",
+        "type": "MYTHICAL_ZOAN",
+        "description": "Allows the user to transform into a Daibutsu (giant golden Buddha).",
+        "ability": "Transformation into a giant Buddha",
+        "rarity": "Mythical",
+        "is_eaten": true
+    },
+    {
+        "name": "Tori Tori no Mi, Model: Phoenix",
+        "type": "MYTHICAL_ZOAN",
+        "description": "Allows the user to transform into a phoenix, granting flight and regenerative abilities.",
+        "ability": "Phoenix transformation and regeneration",
+        "rarity": "Mythical",
+        "is_eaten": true
+    },
+    {
+        "name": "Soru Soru no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to interact with and manipulate souls.",
+        "ability": "Soul manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Gura Gura no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to create powerful shockwaves, causing earthquakes.",
+        "ability": "Earthquake generation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Ope Ope no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to create a spherical territory in which they can manipulate objects and people.",
+        "ability": "Spatial manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Bara Bara no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to split their body into separate pieces and control them independently.",
+        "ability": "Body separation",
+        "rarity": "Common",
+        "is_eaten": true
+    },
+    {
+        "name": "Sube Sube no Mi",
+        "type": "PARAMECIA",
+        "description": "Makes the user's body smooth and slippery, causing most attacks to slide off.",
+        "ability": "Slippery body",
+        "rarity": "Common",
+        "is_eaten": true
+    },
+    {
+        "name": "Moku Moku no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into smoke.",
+        "ability": "Smoke manipulation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Magu Magu no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into magma.",
+        "ability": "Magma manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Gasu Gasu no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into gas.",
+        "ability": "Gas manipulation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Yami Yami no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into darkness.",
+        "ability": "Darkness manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Pika Pika no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into light.",
+        "ability": "Light manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Hie Hie no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into ice.",
+        "ability": "Ice manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Goro Goro no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into electricity.",
+        "ability": "Electricity manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Suna Suna no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into sand.",
+        "ability": "Sand manipulation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Ito Ito no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to create and manipulate strings.",
+        "ability": "String manipulation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Bomu Bomu no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user's body and secretions to explode without harm to the user.",
+        "ability": "Explosion generation",
+        "rarity": "Common",
+        "is_eaten": true
+    },
+    {
+        "name": "Doku Doku no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to create and control various types of poison.",
+        "ability": "Poison generation and control",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Kage Kage no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into shadows.",
+        "ability": "Shadow manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Yuki Yuki no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into snow.",
+        "ability": "Snow manipulation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Mushi Mushi no Mi, Model: Kabuto",
+        "type": "ZOAN",
+        "description": "Allows the user to transform into a kabuto beetle.",
+        "ability": "Beetle transformation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Ame Ame no Mi",
+        "type": "LOGIA",
+        "description": "Allows the user to create, control, and transform into candy.",
+        "ability": "Candy manipulation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Ryu Ryu no Mi, Model: Pteranodon",
+        "type": "ZOAN",
+        "description": "Allows the user to transform into a pteranodon.",
+        "ability": "Pteranodon transformation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Nikyu Nikyu no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to repel things with great force by touching them.",
+        "ability": "Repulsion",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Toge Toge no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to produce sharp spikes from their body.",
+        "ability": "Spike generation",
+        "rarity": "Common",
+        "is_eaten": true
+    },
+    {
+        "name": "Hana Hana no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to grow extra limbs or body parts from any surface they touch.",
+        "ability": "Limbs/body part creation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Baku Baku no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to eat anything and transform it into another object or material.",
+        "ability": "Matter transformation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Mero Mero no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to turn people into stone by making them fall in love with them.",
+        "ability": "Love manipulation",
+        "rarity": "Very Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Saba Saba no Mi",
+        "type": "PARAMECIA",
+        "description": "Allows the user to turn their body into rust.",
+        "ability": "Rust generation",
+        "rarity": "Rare",
+        "is_eaten": true
+    },
+    {
+        "name": "Zou Zou no Mi, Model: Mammoth",
+        "type": "ZOAN",
+        "description": "Allows the user to transform into a mammoth.",
+        "ability": "Mammoth transformation",
+        "rarity": "Rare",
+        "is_eaten": true
+    }
+]
