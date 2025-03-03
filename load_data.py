@@ -54,7 +54,6 @@ def insert_pirates():
                 existing_pirate = cursor.fetchone()
 
                 if existing_pirate:
-                    print(f"✅ Pirate '{pirate['name']}' already exists. Skipping...")
                     continue
 
                 
@@ -92,7 +91,6 @@ def insert_marines():
                 existing_marine = cursor.fetchone()
 
                 if existing_marine:
-                    print(f"✅ Marine '{marine['name']}' already exists. Skipping...")
                     continue
 
                 
@@ -151,3 +149,6 @@ def insert_godsknights():
 
 
 insert_devilFruits()
+insert_pirates()
+insert_godsknights()
+insert_marines()
