@@ -1,5 +1,5 @@
-from DevilFruit import DevilFruit 
-from Database import Database
+from Model.DevilFruit import DevilFruit 
+from Model.Database import Database
 
 class Pirate:
     def __init__(self,name:str,age:int,height:int,birthDate:str,bounty:int,weapon:str,devilFruit_id:int,was_supernova:bool):

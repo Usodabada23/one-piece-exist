@@ -1,5 +1,5 @@
-import TypeDevilFruit
-from Database import Database
+from Model.TypeDevilFruit import TypeDevilFruit
+from Model.Database import Database
 class DevilFruit:
     def __init__(self,name: str,typeFruit: TypeDevilFruit,description: str,ability: str,rarity: str,is_eaten: bool):
         self.name = name
