@@ -83,9 +83,9 @@ class Database:
             if self.cursor:
                 self.cursor.execute(SQL_SCRIPT)
                 self.conn.commit()
-                print("✅ Tables créées avec succès !")
+                print("✅ Tables created !")
         except Exception as e:
-            print(f"❌ Erreur lors de la création des tables : {e}")
+            print(f"❌ Error to create table : {e}")
         finally:
             if self.cursor:
                 self.cursor.close()

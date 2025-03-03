@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Sakazuki (Akainu)",
+    "age": 55,
+    "height": 306,
+    "cgbounty": "N/A",
+    "weapon": "Magu Magu no Mi",
+    "devilFruit_id": null,
+    "rank": "Fleet Admiral"
+  },
+  {
+    "name": "Borsalino (Kizaru)",
+    "age": 58,
+    "height": 302,
+    "cgbounty": "N/A",
+    "weapon": "Pika Pika no Mi",
+    "devilFruit_id": null,
+    "rank": "Admiral"
+  },
+  {
+    "name": "Issho (Fujitora)",
+    "age": 54,
+    "height": 270,
+    "cgbounty": "N/A",
+    "weapon": "Zushi Zushi no Mi",
+    "devilFruit_id": null,
+    "rank": "Admiral"
+  },
+  {
+    "name": "Monkey D. Garp",
+    "age": 78,
+    "height": 287,
+    "cgbounty": "N/A",
+    "weapon": "Haki",
+    "devilFruit_id": null,
+    "rank": "Vice Admiral"
+  },
+  {
+    "name": "Sengoku",
+    "age": 79,
+    "height": 278,
+    "cgbounty": "N/A",
+    "weapon": "Hito Hito no Mi, Model: Daibutsu",
+    "devilFruit_id": null,
+    "rank": "Former Fleet Admiral"
+  },
+  {
+    "name": "Smoker",
+    "age": 36,
+    "height": 209,
+    "cgbounty": "N/A",
+    "weapon": "Moku Moku no Mi",
+    "devilFruit_id": null,
+    "rank": "Vice Admiral"
+  },
+  {
+    "name": "Tashigi",
+    "age": 26,
+    "height": 170,
+    "cgbounty": "N/A",
+    "weapon": "Sword",
+    "devilFruit_id": null,
+    "rank": "Captain"
+  },
+  {
+    "name": "Coby",
+    "age": 18,
+    "height": 167,
+    "cgbounty": "N/A",
+    "weapon": "Haki",
+    "devilFruit_id": null,
+    "rank": "Captain"
+  },
+  {
+    "name": "Helmeppo",
+    "age": 19,
+    "height": 174,
+    "cgbounty": "N/A",
+    "weapon": "Sword",
+    "devilFruit_id": null,
+    "rank": "Lieutenant Commander"
+  }
+]

@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Monkey D. Luffy",
+        "age": 19,
+        "height": 174,
+        "birthDate": "1999-05-05",
+        "bounty": 1500000000,
+        "weapon": "Gomu Gomu no Mi",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Roronoa Zoro",
+        "age": 21,
+        "height": 181,
+        "birthDate": "1997-11-11",
+        "bounty": 320000000,
+        "weapon": "Swords",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Nami",
+        "age": 20,
+        "height": 170,
+        "birthDate": "1998-07-03",
+        "bounty": 66000000,
+        "weapon": "Clima-Tact",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Usopp",
+        "age": 19,
+        "height": 176,
+        "birthDate": "1999-04-01",
+        "bounty": 200000000,
+        "weapon": "Slingshot",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Sanji",
+        "age": 21,
+        "height": 180,
+        "birthDate": "1997-03-02",
+        "bounty": 330000000,
+        "weapon": "Legs",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Tony Tony Chopper",
+        "age": 17,
+        "height": 90,
+        "birthDate": "2001-12-24",
+        "bounty": 100,
+        "weapon": "Medical Knowledge",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Nico Robin",
+        "age": 30,
+        "height": 188,
+        "birthDate": "1988-02-06",
+        "bounty": 130000000,
+        "weapon": "Hana Hana no Mi",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Franky",
+        "age": 36,
+        "height": 240,
+        "birthDate": "1982-03-09",
+        "bounty": 94000000,
+        "weapon": "Cyborg Enhancements",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Brook",
+        "age": 90,
+        "height": 277,
+        "birthDate": "1928-04-03",
+        "bounty": 83000000,
+        "weapon": "Soul Solid",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Jinbe",
+        "age": 46,
+        "height": 301,
+        "birthDate": "1972-04-02",
+        "bounty": 438000000,
+        "weapon": "Fish-Man Karate",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Portgas D. Ace",
+        "age": 20,
+        "height": 185,
+        "birthDate": "1998-01-01",
+        "bounty": 550000000,
+        "weapon": "Mera Mera no Mi",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Trafalgar D. Water Law",
+        "age": 26,
+        "height": 191,
+        "birthDate": "1992-10-06",
+        "bounty": 500000000,
+        "weapon": "Ope Ope no Mi",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Eustass Kid",
+        "age": 23,
+        "height": 205,
+        "birthDate": "1995-01-10",
+        "bounty": 470000000,
+        "weapon": "Jiki Jiki no Mi",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Basil Hawkins",
+        "age": 31,
+        "height": 210,
+        "birthDate": "1987-09-09",
+        "bounty": 320000000,
+        "weapon": "Wara Wara no Mi",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Scratchmen Apoo",
+        "age": 31,
+        "height": 256,
+        "birthDate": "1987-03-19",
+        "bounty": 350000000,
+        "weapon": "Oto Oto no Mi",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "X Drake",
+        "age": 33,
+        "height": 233,
+        "birthDate": "1985-10-24",
+        "bounty": 222000000,
+        "weapon": "Ryu Ryu no Mi, Model: Allosaurus",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Killer",
+        "age": 27,
+        "height": 195,
+        "birthDate": "1991-02-02",
+        "bounty": 200000000,
+        "weapon": "Scythes",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Jewelry Bonney",
+        "age": 24,
+        "height": 174,
+        "birthDate": "1994-09-01",
+        "bounty": 140000000,
+        "weapon": "Ame Ame no Mi",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Capone Bege",
+        "age": 42,
+        "height": 166,
+        "birthDate": "1976-01-17",
+        "bounty": 300000000,
+        "weapon": "Shiro Shiro no Mi",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Urouge",
+        "age": 47,
+        "height": 388,
+        "birthDate": "1971-08-01",
+        "bounty": 108000000,
+        "weapon": "Unknown",
+        "devilFruit_id": null,
+        "was_supernova": true
+    },
+    {
+        "name": "Shanks",
+        "age": 39,
+        "height": 199,
+        "birthDate": "1981-03-09",
+        "bounty": 4048900000,
+        "weapon": "Sword",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Buggy",
+        "age": 39,
+        "height": 192,
+        "birthDate": "1981-08-08",
+        "bounty": 15000000,
+        "weapon": "Bara Bara no Mi",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Marshall D. Teach (Blackbeard)",
+        "age": 40,
+        "height": 344,
+        "birthDate": "1980-08-03",
+        "bounty": 3996000000,
+        "weapon": "Yami Yami no Mi, Gura Gura no Mi",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Boa Hancock",
+        "age": 31,
+        "height": 191,
+        "birthDate": "1989-09-02",
+        "bounty": 80000000,
+        "weapon": "Mero Mero no Mi",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Donquixote Doflamingo",
+        "age": 41,
+        "height": 305,
+        "birthDate": "1979-10-23",
+        "bounty": 340000000,
+        "weapon": "Ito Ito no Mi",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Gecko Moria",
+        "age": 50,
+        "height": 692,
+        "birthDate": "1970-12-25",
+        "bounty": 320000000,
+        "weapon": "Kage Kage no Mi",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Crocodile",
+        "age": 46,
+        "height": 253,
+        "birthDate": "1974-09-05",
+        "bounty": 81000000,
+        "weapon": "Suna Suna no Mi",
+        "devilFruit_id": null,
+        "was_supernova": false
+    },
+    {
+        "name": "Dracule Mihawk",
+        "age": 43,
+        "height": 198,
+        "birthDate": "1977-03-09",
+        "bounty": 0, 
+        "weapon": "Yoru",
+        "devilFruit_id": null,
+        "was_supernova": false
+    }
+]

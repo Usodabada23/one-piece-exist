@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Saint Figarland Garling",
+    "godFamily": "Figarland",
+    "weapon": "Sword",
+    "devilFruit_id": null
+  },
+  {
+    "name": "Saint Ethanbaron V. Nusjuro",
+    "godFamily": "Ethanbaron",
+    "weapon": "Unknown",
+    "devilFruit_id": null
+  },
+  {
+    "name": "Saint Topman Warcury",
+    "godFamily": "Topman",
+    "weapon": "Unknown",
+    "devilFruit_id": null
+  },
+  {
+    "name": "Saint Shepherd Ju Peter",
+    "godFamily": "Shepherd",
+    "weapon": "Unknown",
+    "devilFruit_id": null
+  },
+  {
+    "name": "Saint Marcus Mars",
+    "godFamily": "Marcus",
+    "weapon": "Unknown",
+    "devilFruit_id": null
+  }
+]

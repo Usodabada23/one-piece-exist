@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Logue Town",
+    "location": "East Blue",
+    "government": "World Government",
+    "affiliated_group": "N/A"
+  },
+  {
+    "name": "Drum Island",
+    "location": "Grand Line",
+    "government": "Kingdom of Drum",
+    "affiliated_group": "N/A"
+  },
+  {
+    "name": "Alabasta",
+    "location": "Grand Line",
+    "government": "Kingdom of Alabasta",
+    "affiliated_group": "N/A"
+  },
+  {
+    "name": "Skypiea",
+    "location": "Sky Islands",
+    "government": "Tribal Council",
+    "affiliated_group": "Shandia"
+  },
+  {
+    "name": "Water 7",
+    "location": "Grand Line",
+    "government": "Mayor",
+    "affiliated_group": "Galley-La Company"
+  },
+  {
+    "name": "Enies Lobby",
+    "location": "Grand Line",
+    "government": "World Government",
+    "affiliated_group": "N/A"
+  },
+  {
+    "name": "Thriller Bark",
+    "location": "Florian Triangle",
+    "government": "Gecko Moria",
+    "affiliated_group": "Thriller Bark Pirates"
+  },
+  {
+    "name": "Sabaody Archipelago",
+    "location": "Grand Line",
+    "government": "World Government",
+    "affiliated_group": "N/A"
+  },
+  {
+    "name": "Fish-Man Island",
+    "location": "Underwater",
+    "government": "Neptune Family",
+    "affiliated_group": "N/A"
+  },
+  {
+    "name": "Punk Hazard",
+    "location": "Grand Line",
+    "government": "World Government",
+    "affiliated_group": "N/A"
+  },
+  {
+    "name": "Dressrosa",
+    "location": "Grand Line",
+    "government": "Kingdom of Dressrosa",
+    "affiliated_group": "Donquixote Pirates"
+  },
+  {
+    "name": "Zou",
+    "location": "Grand Line",
+    "government": "Mink Tribe",
+    "affiliated_group": "N/A"
+  },
+  {
+    "name": "Whole Cake Island",
+    "location": "Grand Line",
+    "government": "Big Mom Pirates",
+    "affiliated_group": "Big Mom Pirates"
+  },
+  {
+    "name": "Wano Country",
+    "location": "Grand Line",
+    "government": "Shogun",
+    "affiliated_group": "Kozuki Clan"
+  }
+]
