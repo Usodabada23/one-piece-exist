@@ -32,6 +32,7 @@ Créer une **API Rest** sur le lore de **One Piece**, avec des infos détaillée
 ## 📙 Sources 
 
 [Personnages](https://fr.wikipedia.org/wiki/Personnages_de_One_Piece#Liste_des_primes)
+[Fruit du démon](https://www.reddit.com/r/OnePiece/comments/1gkr07k/devil_fruit_list/?show=original)
 
 ---
 
