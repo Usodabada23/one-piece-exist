@@ -1,4 +1,4 @@
-import Model.RankMarine
+import RankMarine
 class Marine:
     def __init__(self,name:str,age:int,height:int,cgbounty:str,weapon:str,devilFruit_id:int,rank:RankMarine):
         self.__name = name
