@@ -147,8 +147,42 @@ def insert_godsknights():
             cursor.close()
             db.closeConnection()
 
+def insert_islands():
+    db = Database()
+    conn = db.getConnection()
+    if conn:
+        try:
+            cursor = conn.cursor()
+            islands = load_json('islands.json')
+            for island in islands:
+                # Vérifier si l'île existe déjà
+                cursor.execute("SELECT id FROM islands WHERE name = %s;", (island['name'],))
+                existing_island = cursor.fetchone()
+
+                if existing_island:
+                    print(f"✅ Island '{island['name']}' already exists. Skipping...")
+                    continue
+
+                # Si l'île n'existe pas, l'insérer
+                cursor.execute("""
+                    INSERT INTO islands (name, location, government, affiliated_group)
+                    VALUES (%s, %s, %s, %s)
+                """, (
+                    island['name'],
+                    island['location'],
+                    island['government'],
+                    island['affiliated_group']
+                ))
+            conn.commit()
+            print("✅ Islands have been successfully inserted!")
+        except Exception as e:
+            print(f"❌ An error occurred while inserting the islands: {e}")
+        finally:
+            cursor.close()
+            db.closeConnection()
 
 insert_devilFruits()
 insert_pirates()
 insert_godsknights()
 insert_marines()
+insert_islands()
