@@ -1,6 +1,6 @@
 from flask import Flask
 from Model.Database import Database
-from Model.Pirate import Pirate
+from routes.pirates_routes import pirates_routes
 from Model.Marine import Marine
 from Model.Island import Island
 from Model.GodsKnight import GodsKnight
@@ -13,18 +13,8 @@ def hello_world():
     db.create_tables()  
     return "Hello, World! The One piece exist!"
 
-# Pirates routes
-@app.route("/pirates",methods=['GET'])
-def showAllPirates():
-    pirates = Pirate.allPirates()
-    return jsonify(pirates)
-
-@app.route("/pirate/<int:id>", methods=['GET'])
-def showPirateById(id):
-    pirate = Pirate.pirateById(id=id)
-    return jsonify(pirate)
-
 # Marines routes
+app.register_blueprint(pirates_routes)
 
 @app.route("/marines",methods=['GET'])
 def showAllMarines():
