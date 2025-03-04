@@ -5,6 +5,7 @@ class GodsKnight:
         self.__godFamily = godFamily
         self.__weapon = weapon
         self.__devilFruit_id=devilFruit_id
+    
     @staticmethod
     def allGodsKnights():
         db = Database()

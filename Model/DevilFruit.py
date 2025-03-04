@@ -10,20 +10,33 @@ class DevilFruit:
         self.is_eaten = is_eaten
 
     @staticmethod
-    def allDevilFruit():
+    def allDevilFruits():
         db = Database()
         conn = db.getConnection()
-        try :
-            cursor = conn.cursor()
-            data = cursor.execute("SELECT * FROM devilfruits;")
-            if(data):
-                return data
-            else:
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = "SELECT * FROM devilFruits;"
+                cursor.execute(query)
+                marines = cursor.fetchall()
+                return marines
+            except Exception as e:
+                print(f"❌ Error fetching devil fruits info : {e}")
                 return None
-
-        except Exception as e:
-            print(f"Error : {e}")
-
+    @staticmethod
+    def devilFruitById(id:int):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """SELECT * FROM devilFruits WHERE id = %s;"""
+                cursor.execute(query,(id,))
+                marine = cursor.fetchone()
+                return marine
+            except Exception as e:
+                print(f"❌ Error to fetch devil fruit with id : {id} : {e}")
+                return None
 
 
     
