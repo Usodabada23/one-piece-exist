@@ -3,6 +3,7 @@ from Model.Database import Database
 from Model.Pirate import Pirate
 from Model.Marine import Marine
 from Model.Island import Island
+from Model.GodsKnight import GodsKnight
 from flask import jsonify
 app = Flask(__name__)
 @app.route("/")
@@ -45,6 +46,18 @@ def showAllIslands():
 def showIslandById(id):
     island = Island.islandById(id=id)
     return jsonify(island)
+
+# Gods Knights routes
+
+@app.route("/godsKnights",methods=['GET'])
+def showAllGodsKnights():
+    godsknights = GodsKnight.allGodsKnights()
+    return jsonify(godsknights)
+
+@app.route("/godKnight/<int:id>", methods=['GET'])
+def showGodknightById(id):
+    godknight = GodsKnight.godknightById(id=id)
+    return jsonify(godknight)
 
 if __name__ == "__main__":
     app.run(debug=True)
