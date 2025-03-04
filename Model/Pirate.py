@@ -34,4 +34,18 @@ class Pirate:
                 return pirates
             except Exception as e:
                 print(f"❌ Erreur lors de la récupération des pirates : {e}")
-                return []
+                return None
+    @staticmethod
+    def pirateById(id:int):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """SELECT * FROM pirates WHERE id = %s;"""
+                cursor.execute(query,(id,))
+                pirate = cursor.fetchone()
+                return pirate
+            except Exception as e:
+                print(f"❌ Erreur lors de la récupération du pirates avec l'id : {id} : {e}")
+                return None
