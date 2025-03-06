@@ -30,10 +30,6 @@ def addIsland():
         if affiliated_group is not None:
             affiliated_group = int(affiliated_group)
 
-        cgbounty = data.get("cgbounty",None)
-        if cgbounty is not None:
-            cgbounty = int(cgbounty)
-
 
         newIsland = Island(name=data["name"],location=data["location"],government=data["government"],affiliated_group=affiliated_group)
 

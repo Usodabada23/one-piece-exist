@@ -1,6 +1,6 @@
-from flask import Flask, Blueprint,jsonify
+from flask import Flask, Blueprint,jsonify,request
 from Model.GodsKnight import GodsKnight
-
+import datetime
 godsKnights_routes = Blueprint("godsKnights_routes",__name__)
 
 # Gods Knights routes
@@ -14,3 +14,32 @@ def showAllGodsKnights():
 def showGodknightById(id):
     godknight = GodsKnight.godknightById(id=id)
     return jsonify(godknight)
+
+@godsKnights_routes.route("/island/add", methods=['POST'])
+def addGodKnight():
+    try:
+
+        data = request.get_json()
+
+        required_fields = ["name", "godFamily", "weapon"]
+        for field in required_fields:
+            if field not in data:
+                return jsonify({"error": f"The field '{field}' is missing."}), 400
+
+        
+        devilFruit_id = data.get("devilFruit_id", None)
+        if devilFruit_id is not None:
+            devilFruit_id = int(devilFruit_id)
+
+
+        newGodKnight = GodsKnight(name=data["name"],godFamily=data["godFamily"],weapon=data["weapon"],devilFruit_id=devilFruit_id)
+
+        newGodKnight.add()
+
+        return jsonify({"message": "✅ God knight added successfully!"}), 201
+
+    except ValueError as ve:
+        return jsonify({"error": f"Format error: {str(ve)}"}), 400
+
+    except Exception as e:
+        return jsonify({"error": f"Error adding pirate: {str(e)}"}), 500
