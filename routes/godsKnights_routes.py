@@ -51,8 +51,8 @@ def deleteGodsKnight(id):
         if deleted:
             return "", 204
         else:
-            return jsonify({"error": "Devil Fruit not found"}), 404
+            return jsonify({"error": "Gods Knight not found"}), 404
     except ValueError as ve:
         return jsonify({"error": f"Format error: {str(ve)}"}), 400
     except Exception as e:
-        return jsonify({"error": f"Error deleting devil fruits: {str(e)}"}), 500
+        return jsonify({"error": f"Error deleting gods knight: {str(e)}"}), 500

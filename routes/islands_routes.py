@@ -42,3 +42,16 @@ def addIsland():
 
     except Exception as e:
         return jsonify({"error": f"Error adding island: {str(e)}"}), 500
+    
+@islands_routes.route("/island/<int:id>/delete", methods=['DELETE'])
+def deleteIsland(id):
+    try:
+        deleted = Island.delete(id=id)
+        if deleted:
+            return "", 204
+        else:
+            return jsonify({"error": "Island not found"}), 404
+    except ValueError as ve:
+        return jsonify({"error": f"Format error: {str(ve)}"}), 400
+    except Exception as e:
+        return jsonify({"error": f"Error deleting island: {str(e)}"}), 500
