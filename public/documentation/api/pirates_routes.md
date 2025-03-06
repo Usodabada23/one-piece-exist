@@ -14,33 +14,6 @@ Cette API permet de gérer les pirates dans le système. Vous pouvez ajouter, af
 - **Exemple de réponse** :
   ```json
   [
-    {
-      "id": 1,
-      "name": "Monkey D. Luffy",
-      "age": 19,
-      "height": 174,
-      "birthDate": "2001-05-05",
-      "bounty": 500000000,
-      "weapon": "Gomu Gomu no Mi",
-      "devilFruit_id": 1,
-      "was_supernova": true
-    },
-    ...
-  ]
-  ```
-
-## 1. Afficher tous les pirates
-
-**Route** : `/pirates`  
-**Méthode HTTP** : `GET`  
-**Description** : Cette route retourne la liste de tous les pirates enregistrés dans la base de données.
-
-**Réponse** :
-
-- **Code 200** : La liste des pirates.
-- **Exemple de réponse** :
-  ```json
-  [
     [
       1,
       "Monkey D. Luffy",
