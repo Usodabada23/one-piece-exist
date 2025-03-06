@@ -1,13 +1,35 @@
 from Model.TypeDevilFruit import TypeDevilFruit
 from Model.Database import Database
 class DevilFruit:
-    def __init__(self,name: str,typeFruit: TypeDevilFruit,description: str,ability: str,rarity: str,is_eaten: bool):
-        self.name = name
-        self.typeFruit = typeFruit
-        self.description = description
-        self.ability = ability
-        self.rarity = rarity
-        self.is_eaten = is_eaten
+    def __init__(self,name: str,typeFruit: TypeDevilFruit,description: str,ability: str,rarity: str,isEaten: bool):
+        self.__name = name
+        self.__typeFruit = typeFruit
+        self.__description = description
+        self.__ability = ability
+        self.__rarity = rarity
+        self.__isEaten = isEaten
+
+    def add(self):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """INSERT INTO devilfruits (name,typeFruit,description,ability,rarity,is_eaten) VALUES
+                    (%s,%s,%s,%s,%s,%s) ;"""
+                cursor.execute(query, (
+                    self.__name,
+                    self.__typeFruit,
+                    self.__description,
+                    self.__ability,
+                    self.__rarity,
+                    self.__isEaten,
+                ))
+                conn.commit()  # Save changes
+                print("✅ devil fruit added to db!")
+            except Exception as e:
+                print(f"❌ Error insert devil fruit {self.__name} : {e}")
+                return None
 
     @staticmethod
     def allDevilFruits():

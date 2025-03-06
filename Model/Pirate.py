@@ -34,7 +34,7 @@ class Pirate:
                 conn.commit()  # Save changes
                 print("✅ Pirate added !")
             except Exception as e:
-                print(f"❌ Erreur lors de la récupération du pirates avec l'id : {id} : {e}")
+                print(f"❌ Error insert pirate {self.__name} : {e}")
                 return None
 
     @staticmethod

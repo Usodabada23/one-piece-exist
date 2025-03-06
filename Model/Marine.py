@@ -10,6 +10,30 @@ class Marine:
         self.__devilFruit_id= devilFruit_id
         self.__rank = rank
     
+    def add(self):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """INSERT INTO marines (name,age,height,cgbounty,weapon,devilFruit_id,rank) VALUES
+                    (%s,%s,%s,%s,%s,%s,%s) ;"""
+                cursor.execute(query, (
+                    self.__name,
+                    self.__age,
+                    self.__height,
+                    self.__birthDate,
+                    self.__cgbounty,
+                    self.__weapon,
+                    self.__devilFruit_id,
+                    self.__rank
+                ))
+                conn.commit()  # Save changes
+                print("✅ Marine added to db!")
+            except Exception as e:
+                print(f"❌ Error insert marine {self.__name} : {e}")
+                return None
+            
     @staticmethod
     def allMarines():
         db = Database()

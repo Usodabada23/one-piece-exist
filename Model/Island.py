@@ -15,6 +15,26 @@ class Island:
         self.__government = government
         self.__affiliated_group = affiliated_group
     
+    def add(self):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """INSERT INTO islands (name,location,government,affiliated_group) VALUES
+                    (%s,%s,%s,%s) ;"""
+                cursor.execute(query, (
+                    self.__name,
+                    self.__location,
+                    self.__government,
+                    self.__affiliated_group,
+                ))
+                conn.commit()  # Save changes
+                print("✅ Island added to db!")
+            except Exception as e:
+                print(f"❌ Error insert island {self.__name} : {e}")
+                return None
+            
     @staticmethod
     def allIslands():
         db = Database()

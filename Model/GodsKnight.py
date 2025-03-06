@@ -6,6 +6,26 @@ class GodsKnight:
         self.__weapon = weapon
         self.__devilFruit_id=devilFruit_id
     
+    def add(self):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """INSERT INTO godsknights (name,godFamily,weapon,devilFruit_id) VALUES
+                    (%s,%s,%s,%s) ;"""
+                cursor.execute(query, (
+                    self.__name,
+                    self.__godFamily,
+                    self.__weapon,
+                    self.__devilFruit_id,
+                ))
+                conn.commit()  # Save changes
+                print("✅ God knight added to db!")
+            except Exception as e:
+                print(f"❌ Error insert god knight {self.__name} : {e}")
+                return None
+    
     @staticmethod
     def allGodsKnights():
         db = Database()
