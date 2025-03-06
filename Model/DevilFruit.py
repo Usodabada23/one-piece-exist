@@ -59,6 +59,23 @@ class DevilFruit:
             except Exception as e:
                 print(f"❌ Error to fetch devil fruit with id : {id} : {e}")
                 return None
+    @staticmethod
+    def delete(id:int):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """DELETE FROM devilfruits WHERE id = %s;"""
+                cursor.execute(query,(id,))
+                conn.commit()
+                success = cursor.rowcount > 0
+                cursor.close()
+                conn.close()
+                return success
+            except Exception as e:
+                print(f"❌ Error to delete devil Fruit with id : {id} : {e}")
+                return None
 
 
     

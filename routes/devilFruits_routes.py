@@ -41,3 +41,16 @@ def addDevilFruit():
 
     except Exception as e:
         return jsonify({"error": f"Error adding devil fruits: {str(e)}"}), 500
+    
+@devilFruits_routes.route("/devilFruit/<int:id>/delete", methods=['DELETE'])
+def deleteDevilFruit(id):
+    try:
+        deleted = DevilFruit.delete(id=id)
+        if deleted:
+            return "", 204
+        else:
+            return jsonify({"error": "Devil Fruit not found"}), 404
+    except ValueError as ve:
+        return jsonify({"error": f"Format error: {str(ve)}"}), 400
+    except Exception as e:
+        return jsonify({"error": f"Error deleting devil fruits: {str(e)}"}), 500
