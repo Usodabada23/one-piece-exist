@@ -66,6 +66,10 @@ class GodsKnight:
                 query = """DELETE FROM godsknights WHERE id = %s;"""
                 cursor.execute(query,(id,))
                 conn.commit()
+                success = cursor.rowcount > 0
+                cursor.close()
+                conn.close()
+                return success
             except Exception as e:
                 print(f"❌ Error to delete god knight with id : {id} : {e}")
                 return None

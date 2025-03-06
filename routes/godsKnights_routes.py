@@ -10,13 +10,13 @@ def showAllGodsKnights():
     godsknights = GodsKnight.allGodsKnights()
     return jsonify(godsknights)
 
-@godsKnights_routes.route("/godKnight/<int:id>", methods=['GET'])
-def showGodknightById(id):
+@godsKnights_routes.route("/godsKnight/<int:id>", methods=['GET'])
+def showGodsknightById(id):
     godknight = GodsKnight.godknightById(id=id)
     return jsonify(godknight)
 
-@godsKnights_routes.route("/godKnight/add", methods=['POST'])
-def addGodKnight():
+@godsKnights_routes.route("/godsKnight/add", methods=['POST'])
+def addGodsKnight():
     try:
 
         data = request.get_json()
@@ -43,3 +43,16 @@ def addGodKnight():
 
     except Exception as e:
         return jsonify({"error": f"Error adding god knight: {str(e)}"}), 500
+
+@godsKnights_routes.route("/godsKnight/<int:id>/delete", methods=['DELETE'])
+def deleteGodsKnight(id):
+    try:
+        deleted = GodsKnight.delete(id=id)
+        if deleted:
+            return "", 204
+        else:
+            return jsonify({"error": "Devil Fruit not found"}), 404
+    except ValueError as ve:
+        return jsonify({"error": f"Format error: {str(ve)}"}), 400
+    except Exception as e:
+        return jsonify({"error": f"Error deleting devil fruits: {str(e)}"}), 500
