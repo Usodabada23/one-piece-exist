@@ -41,4 +41,4 @@ def addIsland():
         return jsonify({"error": f"Format error: {str(ve)}"}), 400
 
     except Exception as e:
-        return jsonify({"error": f"Error adding pirate: {str(e)}"}), 500
+        return jsonify({"error": f"Error adding island: {str(e)}"}), 500

@@ -22,7 +22,6 @@ class Marine:
                     self.__name,
                     self.__age,
                     self.__height,
-                    self.__birthDate,
                     self.__cgbounty,
                     self.__weapon,
                     self.__devilFruit_id,

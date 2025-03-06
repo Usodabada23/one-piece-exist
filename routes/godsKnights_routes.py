@@ -15,7 +15,7 @@ def showGodknightById(id):
     godknight = GodsKnight.godknightById(id=id)
     return jsonify(godknight)
 
-@godsKnights_routes.route("/island/add", methods=['POST'])
+@godsKnights_routes.route("/godKnight/add", methods=['POST'])
 def addGodKnight():
     try:
 
@@ -42,4 +42,4 @@ def addGodKnight():
         return jsonify({"error": f"Format error: {str(ve)}"}), 400
 
     except Exception as e:
-        return jsonify({"error": f"Error adding pirate: {str(e)}"}), 500
+        return jsonify({"error": f"Error adding god knight: {str(e)}"}), 500

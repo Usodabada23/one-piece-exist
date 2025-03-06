@@ -15,7 +15,7 @@ def showDevilFruit(id):
     devilFruit = DevilFruit.devilFruitById(id=id)
     return jsonify(devilFruit)
 
-@devilFruits_routes.route("/island/add", methods=['POST'])
+@devilFruits_routes.route("/devilFruit/add", methods=['POST'])
 def addDevilFruit():
     try:
 
@@ -40,4 +40,4 @@ def addDevilFruit():
         return jsonify({"error": f"Format error: {str(ve)}"}), 400
 
     except Exception as e:
-        return jsonify({"error": f"Error adding pirate: {str(e)}"}), 500
+        return jsonify({"error": f"Error adding devil fruits: {str(e)}"}), 500

@@ -40,6 +40,7 @@ class GodsKnight:
             except Exception as e:
                 print(f"❌ Error fetching gods knights info : {e}")
                 return None
+    
     @staticmethod
     def godknightById(id:int):
         db = Database()
@@ -54,3 +55,18 @@ class GodsKnight:
             except Exception as e:
                 print(f"❌ Error to fetch god knight with id : {id} : {e}")
                 return None
+    
+    @staticmethod
+    def delete(id:int):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """DELETE FROM godsknights WHERE id = %s;"""
+                cursor.execute(query,(id,))
+                conn.commit()
+            except Exception as e:
+                print(f"❌ Error to delete god knight with id : {id} : {e}")
+                return None
+    
