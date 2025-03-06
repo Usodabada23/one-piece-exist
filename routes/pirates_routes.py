@@ -51,3 +51,16 @@ def addPirate():
 
     except Exception as e:
         return jsonify({"error": f"Error adding pirate: {str(e)}"}), 500
+    
+@pirates_routes.route("/pirate/<int:id>/delete", methods=['DELETE'])
+def deleteIsland(id):
+    try:
+        deleted = Pirate.delete(id=id)
+        if deleted:
+            return "", 204
+        else:
+            return jsonify({"error": "Pirate not found"}), 404
+    except ValueError as ve:
+        return jsonify({"error": f"Format error: {str(ve)}"}), 400
+    except Exception as e:
+        return jsonify({"error": f"Error deleting pirate: {str(e)}"}), 500

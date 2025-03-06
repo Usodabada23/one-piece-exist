@@ -65,3 +65,21 @@ class Pirate:
             except Exception as e:
                 print(f"❌ Erreur lors de la récupération du pirates avec l'id : {id} : {e}")
                 return None
+    
+    @staticmethod
+    def delete(id:int):
+        db = Database()
+        conn = db.getConnection()
+        if conn:
+            try:
+                cursor = conn.cursor()
+                query = """DELETE FROM pirates WHERE id = %s;"""
+                cursor.execute(query,(id,))
+                conn.commit()
+                success = cursor.rowcount > 0
+                cursor.close()
+                conn.close()
+                return success
+            except Exception as e:
+                print(f"❌ Error to delete pirate with id : {id} : {e}")
+                return None
