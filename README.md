@@ -36,7 +36,7 @@ Créer une **API Rest** sur le lore de **One Piece**, avec des infos détaillée
 
 ---
 
-### Documentation sur les routes
+## 📰 Documentation sur les routes
 
 - [La Doc](https://github.com/Usodabada23/one-piece-exist/tree/main/public/documentation/api)
 
